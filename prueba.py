@@ -2,13 +2,13 @@ opcion = " "
 lis_pro =[]
 while opcion != 0:
     print("")
-    print(      "|---------------------------|\n"
+    print(      "+---------------------------+\n"
                 "|    BIENVENIDOS A          |\n"
                 "|                           |\n"
                 "|        LA TIENDA          |\n"
                 "|                           |\n"
                 "|            UTE ☻          |\n"
-                "|---------------------------|\n")
+                "+---------------------------+\n")
     print(            
         "    0 -> Salir\n"
         "    1 -> Agregar Productos\n"
@@ -18,7 +18,7 @@ while opcion != 0:
 
     opcion = int(input("Ingresa el numero de la opcion a consultar: "))
     if opcion == 1:
-        print("****Menu Agregar Productos")
+        print("****Menu Agregar Productos****\n")
         ide = int(input("Ingrese el ID "))
         nombre = input("Ingrese el nombre del producto ")
         precio = input("Ingrese el precio ")
